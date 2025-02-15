@@ -1,0 +1,36 @@
+#DICTIONARY OF ENGINEERING TERMS
+
+ENGINEERING_TERMS = {
+"VISCOSITY" : "resistance of a fluid to flow",
+"TORQUE" : "rotational force around an axis",
+"THERMODYNAMICS" : "study of heat, energy, and work",
+"TENSILE STRENGTH" : "maximun stress a material can withstand while being stretched",
+"STRAIN" : "deformation due to stress",
+"SHEAR STRESS" : "force causing layers to slide past each other",
+"PRESSURE" : "force per unit area",
+"OHM'S LAW" : "voltage equals current times resistance",
+"ACCELERATION" : "rate of change of velocity",
+"ADHESION" : "attraction between different substances",
+"ALLOY" : "a metal made by combining two or more elements",
+"ARCH" : "curved structure for spanning an opening",
+"BEAM" : "a structural element that resist bending",
+"BEARING" : "a machine element that reduces friction",
+"BUOYANCY" : "upward force exerted by a fluid",
+"COMPREHENSIVE STRENGTH" : "capacity of a material to withstand compression",
+"CONDUCTION" : "transfer of heat through a solid",
+"CURRENT" : "flow of electric charge",
+"DENSITY" : "mass per unit volume",
+"DUCTILITY" : "ability of a material to stretch without breaking",
+"ELASTICITY" : "ability of a material to return to its original shape",
+"FORCE" : "a push or pull on an object",
+"FRICTION" : "resistance to motion between surfaces",
+"HEAT TRANSFER" : "movement of heat from one place to another",
+"HYDRAULICS" : "study of liquid flow in motion",
+"KINETICS" : "study of forces causing motion",
+"LOAD" : "forces acting on a structure",
+"MAGNETISM" : "force of attraction or repulsion due to a magnetic field",
+"MASS" : "amount of matter in an object",
+"MOMENTUM" : "mass in motion",
+}
+a = input("Say: ")
+print(ENGINEERING_TERMS[a])
